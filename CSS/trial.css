@@ -1,0 +1,35 @@
+/* simple selectors (name,id,class) */
+/* name */
+h1{
+    text-align: center;
+    color:purple
+}
+h4 {
+    color:blue;
+}
+/* p{
+    color:red;
+} */
+/* id */
+/* #para1{
+    color: olive;
+} */
+/* class */
+.para{
+    font-size: large;
+}
+/* div p {
+    color: blue;
+  }
+  div > h1 p {
+    color: red;
+  } */
+  h1 + p {
+    margin-top: 0;
+    color: yellow;
+  }
+  h1 ~ p {
+    color: green;
+  }
+  
+  

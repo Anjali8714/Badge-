@@ -1,0 +1,42 @@
+body{
+font-family: Arial,  sans-serif;
+margin: 20px;
+background-color: #f4f4f9;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+
+h1::before{
+    content: "✨";
+    color: gold;
+}
+
+.intro::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.intro::after{
+    content: "(Isn't it cool?)";
+    color: #555;
+    font-style: italic;
+}
+
