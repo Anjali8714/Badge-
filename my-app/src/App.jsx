@@ -1,7 +1,8 @@
 import React from 'react'
 import {BrowserRouter, Routes ,Route} from 'react-router-dom'
-import Homepage from './Todo/Homepage'
-import Todolist from './Todo/Todolist'
+import Counter from './Count/Counter'
+import Increment from './Count/Increment'
+import Decrement from './Count/Decrement'
 
 
 
@@ -9,14 +10,17 @@ import Todolist from './Todo/Todolist'
 function App() {
   return (
     <>
-    <BrowserRouter>
+    {/* <BrowserRouter>
      <Routes>
       <Route path='/' Component={Homepage}/>
       <Route path='todolist' Component={Todolist}/>
+      <Route path='edit/:id' Component={Edit}/>
      </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     
-      
+      <Counter/>
+      <Increment/>
+      <Decrement/>
     </>
   )
 }

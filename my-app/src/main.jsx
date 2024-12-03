@@ -2,12 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Context from './User Datas/Context.jsx'
+import Context from './Count/Context.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <Context>
   <StrictMode>
     <App />
   </StrictMode>
-  </Context>
+  </Context> 
 )
